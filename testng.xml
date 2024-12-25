@@ -19,4 +19,10 @@
 
 		</classes>
 	</test> <!-- Test -->
+	<test name="Test">
+        <parameter name="browser" value="chrome"/>  <!-- Define the 'browser' parameter -->
+        <classes>
+            <class name="com.example.tests.MyTest"/>
+        </classes>
+    </test>
 </suite> <!-- Suite -->
